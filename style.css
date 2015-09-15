@@ -1,0 +1,73 @@
+
+
+#wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* стили блока header - начало */
+#header {
+    width: 1024px;
+}
+
+    .logo {
+        width: 1024px;
+        height: 100px;
+        background-color: #60BF60;
+    }
+
+    .nav_menu {
+        width: 1024px;
+        height: 50px;
+        font-size: 24px;
+        background-color: #3AE2CE;
+    }
+
+        .nav_menu ul{
+            width: 900px;
+            height: 50px;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        .nav_menu ul li{
+            padding: 11px 62px;
+            margin: 0 11px;
+            list-style-type: none;
+            float: left;
+            background-color: #CCFF66;
+        }
+/* стили блока header - конец */
+
+/* стили блока block_content - начало */
+#block_content {
+    width: 1022px;
+    display: table;
+    border: 1px solid #cc0000;
+}
+
+    .content {
+        width: 65%;
+        background-color: #C9E0ED;
+    }
+
+    .sidebar {
+        width: 35%;
+        float: right;
+        background-color: #FFFFBF;
+    }
+/* стили блока block_content - конец */
+
+/* стили блока footer - начало */
+#footer {
+    width: 1024px;
+    height: 100px;
+    background-color: #7D7D7D;
+}
+
+    .copyright {
+        width: 100px;
+        margin: 0 auto;
+        padding: 22px 0;
+    }
+/* стили блока footer - конец */
