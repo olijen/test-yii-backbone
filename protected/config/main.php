@@ -43,7 +43,8 @@ return array(
 			'showScriptName'=>false,
 			'rules'=>array(
 				// REST patterns
-				array('site/page'       , 'pattern'=>'site/page/<view:\w+>'),
+				array('site/page'		, 'pattern'=>'site/page/<view:\w+>'),
+				array('api/test'		, 'pattern'=>'api/test/<category:\w+>'),
 				// Other controllers
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
