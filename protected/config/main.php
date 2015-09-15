@@ -37,6 +37,17 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+		
+		'urlManager'=>array(
+			'urlFormat'=>'path',
+			'showScriptName'=>false,
+			'rules'=>array(
+				// REST patterns
+				array('site/page'       , 'pattern'=>'site/page/<view:\w+>'),
+				// Other controllers
+				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+			),
+		),
 
 		// uncomment the following to enable URLs in path-format
 		/*
